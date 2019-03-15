@@ -5,21 +5,21 @@ public class Calculator {
         System.out.println("I'm here to help you");
     } 
     
-    public int count(int a,int b, String op){
-        int res=0;
-        if(op=="+"){
-            res=a+b;
-        }
-        if(op=="-"){
-            res=a-b;
-        }
-        if(op=="*"){
-            res=a*b;
-        }
-        if(op=="/"){
-            res=a/b;
-        }
-        
-        return res;
+    public int sum(int a,int b){
+        int res;
+        return res=a+b;
     }
+    public int substr(int a,int b){
+        int res;
+        return res=a-b;
+    }    
+    public int mult(int a,int b){
+        int res;
+        return res=a*b;
+    }    
+    public int div(int a,int b){
+        int res;
+        return res=a/b;
+    }
+    
 }
