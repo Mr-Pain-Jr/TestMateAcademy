@@ -12,7 +12,7 @@ import java.util.Set;
 public class Controller {
     
     
-    public String compare(Integer n){
+    public String convert(Integer n){
     Map<Integer,String> all = new HashMap<>();
         all.put(1,"I");
         all.put(2,"II");
@@ -37,7 +37,7 @@ public class Controller {
         return all.get(n);
     }
     
-    public int compare(String s){
+    public int convert(String s){
     Map<String,Integer> all = new HashMap<>();
         all.put("I",1);
         all.put("II",2);

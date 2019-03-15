@@ -2,7 +2,7 @@
 public class Calculator {
     
     public Calculator(){
-        System.out.println("I'm here to help you");
+        System.out.println("I'm here to help you!");
     } 
     
     public int sum(int a,int b){
