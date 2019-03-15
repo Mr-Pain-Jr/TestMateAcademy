@@ -16,9 +16,9 @@ public class Test {
             b=sc.nextInt();
             System.out.println(cl.div(a, b));*/
             
-            System.out.print("Enter 1st num,pls(o-10): ");
+            System.out.print("Enter 1st num,pls(I-X): ");
             a=cn.compare(sc.next());
-            System.out.print("Enter 2nd num,pls(0-10): ");
+            System.out.print("Enter 2nd num,pls(I-X): ");
             b=cn.compare(sc.next());
             System.out.println(cn.compare(cl.div(a, b)));            
     }
